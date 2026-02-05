@@ -15,7 +15,7 @@ function Main() {
         <div className="content">
           <div className="social_icons">
             <a href="https://github.com/Khushpachani" target="_blank" rel="noreferrer"><GitHubIcon/></a>
-            <a href="https://www.linkedin.com/in/khush-pachani" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
+            <a href="https://www.linkedin.com/in/khush-pachani-7128a5248/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
             <a href="mailto:khush.b.pachani@gmail.com" target="_blank" rel="noreferrer"><EmailIcon/></a>
           </div>
           <h1>Khush Pachani</h1>
