@@ -1,86 +1,164 @@
-# Developer Portfolio Template 🚀
+<div align="center">
 
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Node.js](https://img.shields.io/badge/Node%20js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white) ![npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
+# Khush Pachani
 
-## What is this?
+<img src="https://avatars.githubusercontent.com/Khushpachani?s=250" alt="Khush Pachani" style="border-radius: 50%;"/>
 
-This simple portfolio template is designed to showcase your past projects, career history, skill sets, and more.
+### 🔐 Security Analyst | Cybersecurity Specialist
 
-View the [Demo](https://yujisatojr.github.io/react-portfolio-template/).
+Gujarat, India  
+📧khush.b.pachani@gmail.com | 📱 +91 9426515217
 
-**This template is free to use, and no attribution is required.** You can fork or download this repository to customize it for your own use. Please don't forget to leave a ⭐ if you like this portfolio!
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/khush-pachani)
+[![Portfolio](https://img.shields.io/badge/Portfolio-5000CA?style=for-the-badge&logo=google-chrome&logoColor=white)](https://khushpachani.github.io)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:khush.b.pachani@gmail.com)
 
-![screenshot](./src/assets//images/screenshot.png)
+</div>
 
-## Features
+---
 
-✅ Open source (free to use, no attribution required)  
-✅ Responsive design & mobile-friendly  
-✅ Supports both dark and light modes  
-✅ Highly customizable multi-component layout  
-✅ Built with modern technologies (React, TypeScript, JavaScript, and SCSS)  
+## Professional Summary
 
-## Quick Setup
+Dynamic **Security Analyst Intern** at TechDefence Labs with expertise in vulnerability assessments and penetration testing. Proficient in industry-standard security tools including Nessus, Nmap, and Burp Suite. Skilled at identifying security risks and delivering actionable reports with strong analytical capabilities and unwavering commitment to cybersecurity awareness and effective risk mitigation strategies.
 
-1. Ensure you have [Node.js](https://nodejs.org/) installed. Check your installation by running:
+---
 
-    ```bash
-    node -v
-    ```
+## 🎓 Education
 
-2. In the project directory, install dependencies:
+### Master of Science (M.Sc.) in Cyber Security & Digital Forensics
+**Rashtriya Raksha University** | Gandhinagar, Gujarat, India  
+📅 Aug 2025 – May 2027
 
-    ```bash
-    npm install
-    ```
+### Bachelor of Science (B.Sc.) in IT (Architecture & Network Security)
+**Gujarat University** | Ahmedabad, Gujarat, India (NAAC A+)  
+📅 Jul 2022 – May 2025  
+🏆 **CGPA: 8.46/10** | **Ranked in Top 1% of class**
 
-3. Start the development server:
+---
 
-    ```bash
-    npm start
-    ```
+## 💼 Professional Experience
 
-4. Open [http://localhost:3000](http://localhost:3000) to view the app in the browser.
+### 🔍 Security Analyst Intern (VAPT)
+**TechDefence Labs** | Ahmedabad, Gujarat | Jan 2025 – Aug 2025
 
-5. Customize the template by navigating to the `/src/components` directory. Modify texts, pictures, and other information as needed.
+- Conducted comprehensive vulnerability assessments and penetration tests across web applications and network infrastructures
+- Utilized industry-standard tools: Nmap, Burp Suite, Metasploit, Nessus, and Shodan for security testing
+- Performed web application security testing targeting SQLi, XSS, SSTI, IDOR, and RCE vulnerabilities
+- Executed network security assessments including Anonymous FTP access and SSH key exposure testing
+- Contributed to configuration reviews and network architecture security assessments
+- Authored detailed VAPT reports with CVSS scores, OWASP & CWE mapping, and remediation recommendations
 
-The page will reload if you make edits, and you will see any lint errors in the console.
+---
 
-If you are interested in creating a mockup image like the ones from the personal projects section, I recommend [Genmoo](https://gemoo.com/tools/browser-mockup-generator/). This website lets you generate sleek looking browser mockups for free.
+## 🏆 Certifications
 
-## Deployment
+- **Certified Network Security Practitioner (CNSP)** – The SecOps Group
+- **Certified Social Engineering Defense Practitioner (CSEDP)** – The SecOps Group
+- **ISO/IEC 27001:2022 Lead Auditor** – Mastermind
 
-You can choose your preferred service (e.g., [Netlify](https://www.netlify.com/), [Render](https://render.com/), [Heroku](https://www.heroku.com/)) for deployment. One of the easiest ways to host this portfolio is using GitHub Pages. Follow the instructions below for a production deploy.
+---
 
-1. **Set Up GitHub Repository**
+## 🛡️ Technical Skills
 
-    Create a new repository on GitHub for your portfolio app.
+### Security Testing & Tools
+- **VAPT Tools:** Nmap, Burp Suite, Metasploit, Nessus, Nikto, Dirb/Gobuster, SQLMap, Hydra, Wireshark, Shodan, John the Ripper, Hashcat
+- **Penetration Testing** | **Security Auditing** | **Vulnerability Assessment**
+- **Web Application Security Testing** | **Network Security Testing**
 
-2. **Configure `package.json`**
+### Operating Systems
+- **Linux:** Kali Linux, Parrot OS, Ubuntu, Red Hat Enterprise Linux
+- **Windows:** Windows Server OS
 
-    Edit the following properties in your `package.json` file:
+### Frameworks & Methodologies
+- OWASP Testing Guide v4
+- PTES (Penetration Testing Execution Standard)
+- MITRE ATT&CK Framework
+- NVD (National Vulnerability Database)
+- CVSS (Common Vulnerability Scoring System)
 
-    ```json
-    {
-        "homepage": "https://yourusername.github.io/your-repo-name",
-        "scripts": {
-            "predeploy": "npm run build",
-            "deploy": "gh-pages -d build",
-            ...
-        }
-    }
-    ```
+### Core Competencies
+- Risk Analysis & Mitigation
+- Security Report Documentation
+- Cybersecurity Awareness
+- Configuration Reviews
+- Network Architecture Assessment
 
-    Replace `yourusername` with your GitHub username and `your-repo-name` with the name of your GitHub repository.
+---
 
-3. **Deploy to GitHub Pages**
+## Key Projects
 
-    Run the following command to deploy your app:
+### Hackzonestore – Real-World Security Testing in a Controlled Lab
+**Completion Date:** May 2025
 
-    ```bash
-    npm run deploy
-    ```
+Designed and executed a comprehensive Vulnerability Assessment and Penetration Testing (VAPT) on a vulnerable e-commerce application and lab network environment.
 
-4. **Access Your Deployed App**
+**Project Scope:**
+- Web authentication mechanisms
+- Injection vulnerability testing
+- Role-based access control analysis
+- API security assessment
+- Network misconfiguration identification
 
-    After successfully deploying, you can access your app at `https://yourusername.github.io/your-repo-name`.
+**Methodology:** OWASP Testing Guide v4, PTES
+
+**Tools Used:** Nmap, Nikto, Dirb, SQLMap, Burp Suite Pro, Hydra, OWASP ZAP, Wireshark, Metasploit
+
+#### Key Vulnerabilities Identified
+
+**🔴 Critical Severity**
+- Authentication Bypass via SQL Injection
+- Remote Code Execution (RCE) via .htaccess Upload
+- Privilege Escalation
+- SSH Key Exposure
+- Server-Side Template Injection (SSTI)
+
+**🟠 High Severity**
+- Anonymous FTP Access
+- Insecure Samba Configuration
+- Local File Inclusion (LFI)
+
+**🟡 Medium Severity**
+- Stored Cross-Site Scripting (XSS)
+- Open Redirection
+
+**Impact & Learning:**
+- Gained hands-on experience in real-world attack simulation
+- Enhanced VAPT methodology and tool proficiency
+- Developed comprehensive remediation strategies
+- Improved security report documentation skills
+
+---
+
+## Professional Interests
+
+- **CTF (Capture The Flag) Competitions** – Active participant in cybersecurity challenges
+- **Bug Bounty Hunting** – Identifying and responsibly disclosing security vulnerabilities
+- **Continuous Professional Development** – Staying current with emerging security threats and technologies
+
+---
+
+## Extracurricular Activities
+
+- **Volleyball Captain & Runner-Up** – Gujarat University (2022–2024)
+- **Badminton Tournament Participant** – Gujarat University (December 2022)
+- **Event Volunteer** – Winter Sports Event, Gujarat University (2022)
+
+---
+
+<div align="center">
+
+### Get In Touch
+
+**Open to collaboration opportunities in cybersecurity, penetration testing, and security research.**
+
+[![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/khush-pachani)
+[![Email](https://img.shields.io/badge/Send_Email-D14836?style=for-the-badge&logo=gmail)](mailto:khush.b.pachani@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Visit_Portfolio-5000CA?style=for-the-badge&logo=google-chrome)](https://khushpachani.github.io)
+
+---
+
+![Profile Views](https://komarev.com/ghpvc/?username=Khushpachani&color=5000ca&style=flat-square&label=Profile+Views)
+
+**🔐 Committed to making the digital world more secure**
+
+</div>
