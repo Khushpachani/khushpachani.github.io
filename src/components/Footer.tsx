@@ -10,8 +10,34 @@ function Footer() {
     <footer>
       <div className="download-buttons" style={{marginBottom: '20px', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
         <a 
-          href="/resume.pdf" 
-          download="Khush_Pachani_Resume.pdf"
+          href="https://drive.google.com/file/d/1EJ02P89zJkypaIX5OUYA3pQ2BbvjT_h8/view?usp=sharing" 
+          target="_blank"
+          rel="noopener noreferrer"
+          className="download-btn"
+          style={{
+            display: 'inline-flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            padding: '12px 30px',
+            width: '90%',
+            maxWidth: '300px',
+            backgroundColor: '#5000ca',
+            color: 'white',
+            textDecoration: 'none',
+            borderRadius: '25px',
+            fontWeight: 'bold',
+            transition: 'all 0.3s ease',
+            fontSize: '16px',
+            boxSizing: 'border-box'
+          }}
+          onMouseOver={(e) => e.currentTarget.style.backgroundColor = '#6a1adb'}
+          onMouseOut={(e) => e.currentTarget.style.backgroundColor = '#5000ca'}
+        >
+          <DownloadIcon style={{marginRight: '8px', fontSize: '20px'}}/>
+          View Resume
+        </a>
+        <a 
+          href="https://drive.google.com/uc?export=download&id=1EJ02P89zJkypaIX5OUYA3pQ2BbvjT_h8"
           className="download-btn"
           style={{
             display: 'inline-flex',
@@ -34,32 +60,6 @@ function Footer() {
         >
           <DownloadIcon style={{marginRight: '8px', fontSize: '20px'}}/>
           Download Resume
-        </a>
-        <a 
-          href="/cv.pdf" 
-          download="Khush_Pachani_CV.pdf"
-          className="download-btn"
-          style={{
-            display: 'inline-flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            padding: '12px 30px',
-            width: '90%',
-            maxWidth: '300px',
-            backgroundColor: '#5000ca',
-            color: 'white',
-            textDecoration: 'none',
-            borderRadius: '25px',
-            fontWeight: 'bold',
-            transition: 'all 0.3s ease',
-            fontSize: '16px',
-            boxSizing: 'border-box'
-          }}
-          onMouseOver={(e) => e.currentTarget.style.backgroundColor = '#6a1adb'}
-          onMouseOut={(e) => e.currentTarget.style.backgroundColor = '#5000ca'}
-        >
-          <DownloadIcon style={{marginRight: '8px', fontSize: '20px'}}/>
-          Download CV
         </a>
       </div>
       <div>
