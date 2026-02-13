@@ -2,6 +2,7 @@ import React from "react";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import EmailIcon from '@mui/icons-material/Email';
+import InsertDriveFileIcon from '@mui/icons-material/InsertDriveFile';
 import '../assets/styles/Main.scss';
 
 function Main() {
@@ -17,6 +18,7 @@ function Main() {
             <a href="https://github.com/Khushpachani" target="_blank" rel="noreferrer"><GitHubIcon/></a>
             <a href="https://www.linkedin.com/in/khush-pachani-7128a5248/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
             <a href="mailto:khush.b.pachani@gmail.com" target="_blank" rel="noreferrer"><EmailIcon/></a>
+            <a href="https://drive.google.com/file/d/1EJ02P89zJkypaIX5OUYA3pQ2BbvjT_h8/view?usp=sharing" target="_blank" rel="noreferrer"><InsertDriveFileIcon/></a>
           </div>
           <h1>Khush Pachani</h1>
           <p>Security Analyst | Cybersecurity Specialist</p>
