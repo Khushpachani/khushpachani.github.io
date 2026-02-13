@@ -27,6 +27,7 @@ function Main() {
             <a href="https://github.com/Khushpachani" target="_blank" rel="noreferrer"><GitHubIcon/></a>
             <a href="https://www.linkedin.com/in/khush-pachani" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
             <a href="mailto:khush.b.pachani@gmail.com" target="_blank" rel="noreferrer"><EmailIcon/></a>
+            <a href="https://drive.google.com/file/d/1EJ02P89zJkypaIX5OUYA3pQ2BbvjT_h8/view?usp=sharing" target="_blank" rel="noreferrer"><InsertDriveFileIcon/></a>
           </div>
         </div>
       </div>
