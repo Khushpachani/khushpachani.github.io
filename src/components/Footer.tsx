@@ -10,7 +10,7 @@ function Footer() {
     <footer>
       <div className="download-buttons" style={{marginBottom: '20px', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
         <a 
-          href="https://drive.google.com/file/d/1EJ02P89zJkypaIX5OUYA3pQ2BbvjT_h8/view?usp=sharing" 
+          href="https://drive.google.com/file/d/1S01dKlEE7jp5DEeM8idrRe0RpOktz0aP/view?usp=sharing" 
           target="_blank"
           rel="noopener noreferrer"
           className="download-btn"
@@ -37,7 +37,7 @@ function Footer() {
           View Resume
         </a>
         <a 
-          href="https://drive.google.com/uc?export=download&id=1EJ02P89zJkypaIX5OUYA3pQ2BbvjT_h8"
+          href="https://drive.google.com/uc?export=download&id=1S01dKlEE7jp5DEeM8idrRe0RpOktz0aP"
           className="download-btn"
           style={{
             display: 'inline-flex',
