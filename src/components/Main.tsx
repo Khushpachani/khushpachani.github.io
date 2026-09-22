@@ -44,7 +44,7 @@ function Main() {
           <span className="dim">[</span>{role}<span className="cursor">|</span><span className="dim">]</span>
         </p>
         <p className="hero-tagline">
-          {profile.title} focused on <span className="accent">penetration testing &amp; VAPT</span> —
+          {profile.title} focused on <span className="accent">penetration testing &amp; VAPT</span> -
           finding the flaws before the adversaries do.
         </p>
         <p className="hero-location mono dim">
@@ -56,7 +56,7 @@ function Main() {
             <FontAwesomeIcon icon={faEye} /> View Resume
           </a>
           <a className="btn btn-outline" href={profile.resumeDownload}>
-            <FontAwesomeIcon icon={faDownload} /> Download CV
+            <FontAwesomeIcon icon={faDownload} /> Download Resume
           </a>
         </div>
 

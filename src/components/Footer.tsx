@@ -26,7 +26,7 @@ function Footer() {
               <FontAwesomeIcon icon={faEye} /> View Resume
             </a>
             <a className="btn btn-outline" href={profile.resumeDownload}>
-              <FontAwesomeIcon icon={faDownload} /> Download CV
+              <FontAwesomeIcon icon={faDownload} /> Download Resume
             </a>
           </div>
         </div>

@@ -71,7 +71,7 @@ export const experience = [
     period: 'Jun 2026 – Present',
     location: 'Gandhinagar, Gujarat',
     points: [
-      'Though scoped as a development role, work has centered on the security side of an in-progress client engagement (a job portal platform — details withheld per NDA): vulnerability assessment, penetration testing, system hardening, and security auditing.',
+      'Though scoped as a development role, work has centered on the security side of an in-progress client engagement (a job portal platform - details withheld per NDA): vulnerability assessment, penetration testing, system hardening, and security auditing.',
       'Supported system management and hardening for the platform environment, applying secure-configuration baselines alongside development work.',
       'Led VAPT, system hardening, and risk auditing for production applications serving roughly 100,000 (1 lakh+) end users, reducing exposure across critical business workflows.',
     ],
@@ -94,7 +94,7 @@ export type Severity = 'critical' | 'high' | 'medium';
 
 export const projects = [
   {
-    title: 'Hackzonestore — Full-Scope VAPT',
+    title: 'Hackzonestore - Full-Scope VAPT',
     subtitle: 'Simulated e-commerce environment',
     date: 'May 2025',
     description:
@@ -118,7 +118,7 @@ export const projects = [
     subtitle: 'njRAT (Bladabindi) static analysis · with Nand Gajera',
     date: 'Mar 2026',
     description:
-      'Static analysis of a live njRAT (Bladabindi) sample from MalwareBazaar inside an isolated FLARE VM lab — triaging, fingerprinting, and decompiling the .NET binary to map its full capability set and extract IOCs for detection and threat hunting.',
+      'Static analysis of a live njRAT (Bladabindi) sample from MalwareBazaar inside an isolated FLARE VM lab - triaging, fingerprinting, and decompiling the .NET binary to map its full capability set and extract IOCs for detection and threat hunting.',
     highlights: [
       { value: '63/71', label: 'VirusTotal detections' },
       { value: '37 KB', label: 'PE32 · VB.NET' },
@@ -138,7 +138,7 @@ export const projects = [
 
 export const achievements = [
   {
-    title: '2nd Runner-Up — Adani Innovation Mindstorm OT Cybersecurity Hackathon 2026',
+    title: '2nd Runner-Up - Adani Innovation Mindstorm OT Cybersecurity Hackathon 2026',
     subtitle: 'Maya Jaal CTF Track',
     period: '2026',
     location: 'Gandhinagar, Gujarat',
@@ -203,6 +203,6 @@ export const education = [
     school: 'Gujarat University',
     location: 'Ahmedabad, Gujarat',
     period: 'Jul 2022 – May 2025',
-    note: 'CGPA 8.46/10 — Ranked Top 3 of class',
+    note: 'CGPA 8.46/10 - Ranked Top 3 of class',
   },
 ];
