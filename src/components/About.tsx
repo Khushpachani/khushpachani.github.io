@@ -4,7 +4,7 @@ import { profile, stats } from '../data/portfolio';
 
 function About() {
   return (
-    <Section id="about" index="01" title="about_me">
+    <Section id="about" index="01" title="About_Me">
       <div className="about-grid">
         <div className="about-photo">
           <img src={profile.avatar} alt={profile.name} />

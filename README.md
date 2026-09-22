@@ -10,6 +10,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=00ff66)](https://www.linkedin.com/in/khush-pachani-7128a5248/)
 [![Email](https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=gmail&logoColor=00ff66)](mailto:khush.b.pachani@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=00ff66)](https://github.com/Khushpachani)
+[![TryHackMe](https://img.shields.io/badge/TryHackMe-000000?style=for-the-badge&logo=tryhackme&logoColor=00ff66)](https://tryhackme.com/p/Ultra.instinct)
 
 [![Deploy](https://github.com/Khushpachani/khushpachani.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/Khushpachani/khushpachani.github.io/actions/workflows/deploy.yml)
 
@@ -142,7 +143,7 @@ $ ./establish_connection.sh
 Open to full-time Penetration Testing / VAPT roles and security research collaborations.
 ```
 
-**[suid0.in](https://suid0.in)** · **[LinkedIn](https://www.linkedin.com/in/khush-pachani-7128a5248/)** · **[Email](mailto:khush.b.pachani@gmail.com)**
+**[suid0.in](https://suid0.in)** · **[LinkedIn](https://www.linkedin.com/in/khush-pachani-7128a5248/)** · **[TryHackMe](https://tryhackme.com/p/Ultra.instinct)** · **[Email](mailto:khush.b.pachani@gmail.com)**
 
 <sub>/* stay curious, stay ethical */ · Licensed under MIT</sub>
 

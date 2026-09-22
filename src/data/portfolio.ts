@@ -17,6 +17,7 @@ export const profile = {
   email: 'khush.b.pachani@gmail.com',
   github: 'https://github.com/Khushpachani',
   linkedin: 'https://www.linkedin.com/in/khush-pachani-7128a5248/',
+  tryhackme: 'https://tryhackme.com/p/Ultra.instinct',
   resumeView: `https://drive.google.com/file/d/${RESUME_ID}/view`,
   resumeDownload: `https://drive.google.com/uc?export=download&id=${RESUME_ID}`,
   avatar: 'https://avatars.githubusercontent.com/Khushpachani?s=400',

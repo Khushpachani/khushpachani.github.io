@@ -6,7 +6,7 @@ import { projects } from '../data/portfolio';
 
 function Project() {
   return (
-    <Section id="projects" index="05" title="projects">
+    <Section id="projects" index="05" title="Projects">
       <div className="projects-grid">
         {projects.map((project) => (
           <article className="card project-card" key={project.title}>

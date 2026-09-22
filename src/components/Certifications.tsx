@@ -7,7 +7,7 @@ import { certifications, education } from '../data/portfolio';
 function Certifications() {
   return (
     <>
-      <Section id="certifications" index="06" title="certifications">
+      <Section id="certifications" index="06" title="Certifications">
         <div className="certs-grid">
           {certifications.map((cert) => (
             <a className="card cert-card" key={cert.name} href={cert.url} target="_blank" rel="noreferrer">
@@ -24,7 +24,7 @@ function Certifications() {
         </div>
       </Section>
 
-      <Section id="education" index="07" title="education">
+      <Section id="education" index="07" title="Education">
         <div className="edu-grid">
           {education.map((edu) => (
             <div className="card edu-card" key={edu.degree}>

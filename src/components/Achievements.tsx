@@ -6,7 +6,7 @@ import { achievements } from '../data/portfolio';
 
 function Achievements() {
   return (
-    <Section id="achievements" index="04" title="achievements">
+    <Section id="achievements" index="04" title="Achievements">
       <div className="achievements-grid">
         {achievements.map((a) => (
           <div className="card achievement-card" key={a.title}>

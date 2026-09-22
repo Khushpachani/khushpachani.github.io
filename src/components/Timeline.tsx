@@ -4,7 +4,7 @@ import { experience } from '../data/portfolio';
 
 function Timeline() {
   return (
-    <Section id="experience" index="03" title="experience">
+    <Section id="experience" index="03" title="Experience">
       <ol className="timeline">
         {experience.map((job) => (
           <li className="timeline-item" key={job.role + job.org}>

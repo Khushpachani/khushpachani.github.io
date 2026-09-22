@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope, faDownload, faEye, faLocationDot } from '@fortawesome/free-solid-svg-icons';
+import TryHackMeIcon from './TryHackMeIcon';
 import { profile } from '../data/portfolio';
 
 // Cycles through profile.roles with a type/delete animation.
@@ -63,6 +64,7 @@ function Main() {
         <div className="social">
           <a href={profile.github} target="_blank" rel="noreferrer" aria-label="GitHub"><FontAwesomeIcon icon={faGithub} /></a>
           <a href={profile.linkedin} target="_blank" rel="noreferrer" aria-label="LinkedIn"><FontAwesomeIcon icon={faLinkedin} /></a>
+          <a href={profile.tryhackme} target="_blank" rel="noreferrer" aria-label="TryHackMe" title="TryHackMe"><TryHackMeIcon /></a>
           <a href={`mailto:${profile.email}`} aria-label="Email"><FontAwesomeIcon icon={faEnvelope} /></a>
         </div>
       </div>

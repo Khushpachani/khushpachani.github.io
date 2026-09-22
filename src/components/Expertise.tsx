@@ -23,7 +23,7 @@ const icons: Record<string, IconDefinition> = {
 
 function Expertise() {
   return (
-    <Section id="skills" index="02" title="skills">
+    <Section id="skills" index="02" title="Skills">
       <div className="skills-grid">
         {skills.map((group) => (
           <div className="card skill-card" key={group.title}>
