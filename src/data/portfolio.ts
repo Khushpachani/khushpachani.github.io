@@ -61,7 +61,7 @@ export const skills = [
   {
     icon: 'virus',
     title: 'Malware Analysis',
-    items: ['Reverse Engineering', 'Sandbox Analysis', 'IOC Extraction', 'Persistence Mechanisms', 'C2 Patterns'],
+    items: ['Reverse Engineering', 'Static Analysis', 'FLARE VM', 'dnSpy', 'PE Studio', 'Detect It Easy', 'IOC Extraction', 'C2 Patterns'],
   },
 ];
 
@@ -115,13 +115,25 @@ export const projects = [
     tags: ['Nmap', 'Nikto', 'Dirb', 'SQLMap', 'Burp Suite Pro', 'Hydra', 'ZAP', 'Wireshark', 'Metasploit'],
   },
   {
-    title: 'Malware Reverse Engineering',
-    subtitle: 'njRAT & WannaCry',
-    date: 'Research',
+    title: 'Reverse Engineering and Malware Analysis',
+    subtitle: 'njRAT (Bladabindi) static analysis · with Nand Gajera',
+    date: 'Mar 2026',
     description:
-      'Reverse-engineered execution flow and payload delivery of real-world malware families in an isolated sandbox, documenting behavioral indicators, persistence mechanisms, and C2 communication patterns as a reusable analysis reference.',
+      'Static analysis of a live njRAT (Bladabindi) sample from MalwareBazaar inside an isolated FLARE VM lab — triaging, fingerprinting, and decompiling the .NET binary to map its full capability set and extract IOCs for detection and threat hunting.',
+    highlights: [
+      { value: '63/71', label: 'VirusTotal detections' },
+      { value: '37 KB', label: 'PE32 · VB.NET' },
+      { value: '5.574', label: 'Entropy · not packed' },
+      { value: '22+', label: 'Malicious functions' },
+    ],
+    details: [
+      'Triaged with VirusTotal, then fingerprinted with Detect It Easy and PE Studio (VB.NET, CLR v2.0, no packing) and inspected raw PE headers in HxD.',
+      'Decompiled with dnSpy to trace execution flow: registry Run-key persistence, raw-TCP C2 over an ngrok tunnel, Base64-encoded traffic, GetAsyncKeyState keylogging, and webcam detection via avicap32.',
+      'Documented anti-analysis and anti-removal tricks: svchost.exe masquerading, single-instance mutex, and a critical-process flag via NtSetInformationProcess that BSODs the host if killed.',
+      'Extracted file, network, and host IOCs (hashes, C2 domain and port, mutex, registry keys), mapped behaviour to MITRE ATT&CK, and wrote defender-facing guidance.',
+    ],
     findings: [],
-    tags: ['Sandboxing', 'Static Analysis', 'Dynamic Analysis', 'IOCs', 'C2'],
+    tags: ['FLARE VM', 'VirusTotal', 'Detect It Easy', 'PE Studio', 'HxD', 'dnSpy', 'MITRE ATT&CK', 'IOCs'],
   },
 ];
 
