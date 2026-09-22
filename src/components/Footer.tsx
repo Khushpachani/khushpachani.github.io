@@ -1,73 +1,42 @@
 import React from "react";
-import GitHubIcon from '@mui/icons-material/GitHub';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import CodeIcon from '@mui/icons-material/Code';
-import DownloadIcon from '@mui/icons-material/Download';
-import '../assets/styles/Footer.scss'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope, faPhone, faDownload, faEye } from '@fortawesome/free-solid-svg-icons';
+import Section from './Section';
+import { profile } from '../data/portfolio';
 
 function Footer() {
   return (
-    <footer>
-      <div className="download-buttons" style={{marginBottom: '20px', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
-        <a 
-          href="https://drive.google.com/file/d/1S01dKlEE7jp5DEeM8idrRe0RpOktz0aP/view?usp=sharing" 
-          target="_blank"
-          rel="noopener noreferrer"
-          className="download-btn"
-          style={{
-            display: 'inline-flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            padding: '12px 30px',
-            width: '90%',
-            maxWidth: '300px',
-            backgroundColor: '#5000ca',
-            color: 'white',
-            textDecoration: 'none',
-            borderRadius: '25px',
-            fontWeight: 'bold',
-            transition: 'all 0.3s ease',
-            fontSize: '16px',
-            boxSizing: 'border-box'
-          }}
-          onMouseOver={(e) => e.currentTarget.style.backgroundColor = '#6a1adb'}
-          onMouseOut={(e) => e.currentTarget.style.backgroundColor = '#5000ca'}
-        >
-          <DownloadIcon style={{marginRight: '8px', fontSize: '20px'}}/>
-          View Resume
-        </a>
-        <a 
-          href="https://drive.google.com/uc?export=download&id=1S01dKlEE7jp5DEeM8idrRe0RpOktz0aP"
-          className="download-btn"
-          style={{
-            display: 'inline-flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            padding: '12px 30px',
-            width: '90%',
-            maxWidth: '300px',
-            backgroundColor: '#5000ca',
-            color: 'white',
-            textDecoration: 'none',
-            borderRadius: '25px',
-            fontWeight: 'bold',
-            transition: 'all 0.3s ease',
-            fontSize: '16px',
-            boxSizing: 'border-box'
-          }}
-          onMouseOver={(e) => e.currentTarget.style.backgroundColor = '#6a1adb'}
-          onMouseOut={(e) => e.currentTarget.style.backgroundColor = '#5000ca'}
-        >
-          <DownloadIcon style={{marginRight: '8px', fontSize: '20px'}}/>
-          Download Resume
-        </a>
-      </div>
-      <div>
-        <a href="https://github.com/Khushpachani" target="_blank" rel="noreferrer"><GitHubIcon/></a>
-        <a href="https://www.linkedin.com/in/khush-pachani" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
-      </div>
-      <p>Portfolio designed & built by Khush Pachani <CodeIcon style={{fontSize: '16px', verticalAlign: 'middle'}}/></p>
-    </footer>
+    <>
+      <Section id="contact" index="08" title="contact">
+        <div className="contact card">
+          <p className="mono accent">$ ./establish_connection.sh</p>
+          <h3>Let's secure something together.</h3>
+          <p>
+            Open to full-time <span className="accent">Penetration Testing / VAPT</span> roles,
+            security research collaborations, and responsible-disclosure conversations.
+          </p>
+          <div className="contact-links">
+            <a href={`mailto:${profile.email}`}><FontAwesomeIcon icon={faEnvelope} /> {profile.email}</a>
+            <a href={`tel:${profile.phone.replace(/\s/g, '')}`}><FontAwesomeIcon icon={faPhone} /> {profile.phone}</a>
+            <a href={profile.linkedin} target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /> LinkedIn</a>
+            <a href={profile.github} target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} /> GitHub</a>
+          </div>
+          <div className="hero-actions">
+            <a className="btn" href={profile.resumeView} target="_blank" rel="noreferrer">
+              <FontAwesomeIcon icon={faEye} /> View Resume
+            </a>
+            <a className="btn btn-outline" href={profile.resumeDownload}>
+              <FontAwesomeIcon icon={faDownload} /> Download CV
+            </a>
+          </div>
+        </div>
+      </Section>
+
+      <footer className="footer mono dim">
+        <p>© {new Date().getFullYear()} {profile.name} · <span className="accent">{"/* stay curious, stay ethical */"}</span></p>
+      </footer>
+    </>
   );
 }
 

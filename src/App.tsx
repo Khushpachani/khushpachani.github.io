@@ -1,42 +1,36 @@
-import React, {useState, useEffect} from "react";
+import React from "react";
 import {
-  Main,
-  Timeline,
-  Expertise,
-  Project,
+  MatrixRain,
   Navigation,
+  Main,
+  About,
+  Expertise,
+  Timeline,
+  Achievements,
+  Project,
+  Certifications,
   Footer,
 } from "./components";
-import FadeIn from './components/FadeIn';
 import './index.scss';
 
 function App() {
-    const [mode, setMode] = useState<string>('dark');
-
-    const handleModeChange = () => {
-        if (mode === 'dark') {
-            setMode('light');
-        } else {
-            setMode('dark');
-        }
-    }
-
-    useEffect(() => {
-        window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
-      }, []);
-
-    return (
-    <div className={`main-container ${mode === 'dark' ? 'dark-mode' : 'light-mode'}`}>
-        <Navigation parentToChild={{mode}} modeChange={handleModeChange}/>
-        <FadeIn transitionDuration={700}>
-            <Main/>
-            <Expertise/>
-            <Timeline/>
-            <Project/>
-        </FadeIn>
+  return (
+    <>
+      <MatrixRain />
+      <div className="scanlines" aria-hidden="true" />
+      <Navigation />
+      <main className="page">
+        <Main />
+        <About />
+        <Expertise />
+        <Timeline />
+        <Achievements />
+        <Project />
+        <Certifications />
         <Footer />
-    </div>
-    );
+      </main>
+    </>
+  );
 }
 
 export default App;

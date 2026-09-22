@@ -21,3 +21,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# local copy of the resume (the site links to Google Drive)
+/Khush resume.pdf
