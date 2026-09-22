@@ -1,7 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope, faPhone, faDownload, faEye } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faDownload, faEye } from '@fortawesome/free-solid-svg-icons';
 import Section from './Section';
 import { profile } from '../data/portfolio';
 
@@ -18,7 +18,6 @@ function Footer() {
           </p>
           <div className="contact-links">
             <a href={`mailto:${profile.email}`}><FontAwesomeIcon icon={faEnvelope} /> {profile.email}</a>
-            <a href={`tel:${profile.phone.replace(/\s/g, '')}`}><FontAwesomeIcon icon={faPhone} /> {profile.phone}</a>
             <a href={profile.linkedin} target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /> LinkedIn</a>
             <a href={profile.github} target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} /> GitHub</a>
           </div>

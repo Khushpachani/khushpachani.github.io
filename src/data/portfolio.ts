@@ -15,7 +15,6 @@ export const profile = {
   ],
   location: 'Ahmedabad, Gujarat, India',
   email: 'khush.b.pachani@gmail.com',
-  phone: '+91 9426515217',
   github: 'https://github.com/Khushpachani',
   linkedin: 'https://www.linkedin.com/in/khush-pachani-7128a5248/',
   resumeView: `https://drive.google.com/file/d/${RESUME_ID}/view`,

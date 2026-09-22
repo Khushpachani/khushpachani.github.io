@@ -42,7 +42,7 @@ npm run deploy
 3. Save
 
 **Your website will be live at:**
-`https://khushpachani.github.io/khush.github.io`
+`https://suid0.in` (khushpachani.github.io redirects here)
 
 ---
 

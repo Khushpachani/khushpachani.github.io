@@ -1,6 +1,6 @@
 # Khush Pachani — Cybersecurity Portfolio
 
-Live at **https://khushpachani.github.io**
+Live at **https://suid0.in** (also reachable via https://khushpachani.github.io, which redirects)
 
 Black, terminal-themed portfolio built with React + TypeScript + SCSS.
 
