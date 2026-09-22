@@ -18,7 +18,7 @@ function Main() {
             <a href="https://github.com/Khushpachani" target="_blank" rel="noreferrer"><GitHubIcon/></a>
             <a href="https://www.linkedin.com/in/khush-pachani-7128a5248/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
             <a href="mailto:khush.b.pachani@gmail.com" target="_blank" rel="noreferrer"><EmailIcon/></a>
-            <a href="https://drive.google.com/file/d/1S01dKlEE7jp5DEeM8idrRe0RpOktz0aP/view" target="_blank" rel="noreferrer"><InsertDriveFileIcon/></a>
+            <a href="https://drive.google.com/file/d/1cTbizz8Vqb_L6T-TYtePBn_gDwevfW01/view" target="_blank" rel="noreferrer"><InsertDriveFileIcon/></a>
           </div>
           <h1>Khush Pachani</h1>
           <p>Security Analyst | Cybersecurity Specialist</p>
@@ -27,7 +27,7 @@ function Main() {
             <a href="https://github.com/Khushpachani" target="_blank" rel="noreferrer"><GitHubIcon/></a>
             <a href="https://www.linkedin.com/in/khush-pachani" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
             <a href="mailto:khush.b.pachani@gmail.com" target="_blank" rel="noreferrer"><EmailIcon/></a>
-            <a href="https://drive.google.com/file/d/1S01dKlEE7jp5DEeM8idrRe0RpOktz0aP/view" target="_blank" rel="noreferrer"><InsertDriveFileIcon/></a>
+            <a href="https://drive.google.com/file/d/1cTbizz8Vqb_L6T-TYtePBn_gDwevfW01/view" target="_blank" rel="noreferrer"><InsertDriveFileIcon/></a>
           </div>
         </div>
       </div>
