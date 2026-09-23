@@ -29,7 +29,6 @@ export const stats = [
   { value: '100K+', label: 'End users protected' },
   { value: 'Podium', label: 'Adani OT CTF · 2nd Runner-Up' },
   { value: '5', label: 'Security certifications' },
-  { value: 'Top 3', label: 'B.Sc. class rank' },
 ];
 
 export const skills = [
@@ -157,8 +156,9 @@ export const achievements = [
     location: 'Gandhinagar, Gujarat',
     points: [
       'Gained direct exposure to SEBI regulatory frameworks, market compliance standards, and investor protection mechanisms across Indian capital markets.',
-      'Analyzed institutional risk management practices and governance strategies implemented by key market entities.',
-      'Handled logistics, schedule execution, and stakeholder coordination as part of the core delivery team.',
+      'Analyzed macro-level financial operations, institutional risk management practices, and governance strategies implemented by key market entities.',
+      'Coordinated logistics, schedule execution, and stakeholder coordination as part of the core operational delivery team for the high-level symposium.',
+      'Liaised and networked with senior executive leadership across financial institutions to understand operational challenges and regulatory alignment.',
     ],
   },
 ];
